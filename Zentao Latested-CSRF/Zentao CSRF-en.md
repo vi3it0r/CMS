@@ -1,6 +1,6 @@
-# 禅道后台存在跨站请求伪造攻击(CSRF)
+# Cross-site Request Forgery Attack (CSRF) in ZenTao
 
-说明：禅道项目管理软件是开源项目管理软件。其最新版（企业版<=5.0.rc1，专业版<=10.0.rc1,开源版<=15.0）存在跨站请求伪造攻击。用户可构造场景，引诱管理员在不知情的情况下进行后台操作.
+Impact：ZenTao project management software is an open source project management software. Its latest version (Enterprise Edition<=5.0.rc1, Professional Edition<=10.0.rc1, Open Source Edition<=15.0) has cross-site request forgery attacks. Users can construct scenarios to entice administrators to perform background operations without their knowledge.
 
 ## 1.poc
 
@@ -32,4 +32,4 @@ poc：
 
 ```
 ![img](2.png)
-管理员点击后可触发相应操作
+The administrator can trigger the corresponding operation after clicking
